@@ -41,7 +41,7 @@ void Player::take_dmg(Enemy *E_Target){
     //Attack Formula: attack*(100/(100+defen se))
     int Damage;
     Damage = E_Target->Attack * (100/(100+this->Def));
-     std::cout << Name << " took " << Damage << " damage!!! \n";
+     std::cout << this->Name << " took " << Damage << " damage!!! \n";
 
 
 
@@ -49,7 +49,8 @@ void Player::take_dmg(Enemy *E_Target){
 
 void Player::attack(Enemy *E_Target){
 
+   
+    std::cout << this->Name << "Attacked \n";
     E_Target->take_dmg(this);
-
 
 }
