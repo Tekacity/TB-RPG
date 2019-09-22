@@ -3,5 +3,10 @@
         "files.associations": {
             "iostream": "cpp"
         }
-    }
+    },
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
