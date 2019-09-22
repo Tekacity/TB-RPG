@@ -1,12 +1,32 @@
 #include <iostream>
-#include <Player.h>
+#include <player.h>
 #include <Enemy.h>
 
 Player *P_Target;
 Enemy  *E_Target;
 int choice;
 
+int start_game();
 
+int main(){
+
+
+    std::cout << "1.Start  \n 2.Quit" << std::endl;
+    std::cout << "Press 1 to Start, 2 to Quit \n";
+    start_game();
+
+
+
+
+
+
+
+
+
+
+
+
+}
 int start_game(){
 
 
@@ -30,25 +50,5 @@ int start_game(){
         start_game();
 
     }
-
-}
-
-int main(){
-
-
-    std::cout << "1.Start  \n 2.Quit" << std::endl;
-    std::cout << "Press 1 to Start, 2 to Quit \n";
-    start_game();
-
-
-
-
-
-
-
-
-
-
-
 
 }
