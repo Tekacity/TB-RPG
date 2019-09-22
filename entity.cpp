@@ -1,6 +1,6 @@
-#include "Entity.h"
-#include "Player.h"
-#include "Enemy.h"
+#include "entity.h"
+#include "player.h"
+#include "enemy.h"
 
 
 void Entity::attack(){

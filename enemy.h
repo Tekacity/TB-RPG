@@ -1,7 +1,7 @@
 #ifndef Enemy_H
 #define Enemy_H
-#include "Player.h"
-#include "Entity.h"l
+#include "player.h"
+#include "entity.h"
 #include <string>
 
 class Enemy: virtual protected Entity{

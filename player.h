@@ -1,7 +1,7 @@
 #ifndef Player_H
 #define Player_H
-#include "Enemy.h"
-#include "Entity.h"
+#include "enemy.h"
+#include "entity.h"
 #include <string>
 
 

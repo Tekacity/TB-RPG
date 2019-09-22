@@ -1,6 +1,6 @@
 #include <iostream>
-#include <player.h>
-#include <Enemy.h>
+#include "player.h"
+#include "enemy.h"
 
 Player *P_Target;
 Enemy  *E_Target;
