@@ -13,12 +13,16 @@ int main(){
 
     std::cout << "1.Start  \n 2.Quit" << std::endl;
     //std::cout << "Press 1 to Start, 2 to Quit \n";
-    start_game();
+    //start_game();
     std::cout << "test '\n'";
+
+
+
 
     return 0;
 
 }
+
 int start_game(){
 
     std::cout << "Press 1 to Start, 2 to Quit \n";
