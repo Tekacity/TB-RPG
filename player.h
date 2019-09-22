@@ -5,12 +5,11 @@
 #include <string>
 
 
-
 class Player: virtual protected Entity{
 
     public:
     
-    Enemy *E_Target;
+    class Enemy *E_Target;
     void take_dmg(Enemy *E_Target);
     void attack(Enemy *E_Target);
     std::string Name;

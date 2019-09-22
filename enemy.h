@@ -7,7 +7,7 @@
 class Enemy: virtual protected Entity{
 
     public:
-    Player *P_Target;
+    class Player *P_Target;
     int Attack;
     std::string Name;
     void set_Name(std::string Name);
