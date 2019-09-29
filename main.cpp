@@ -87,4 +87,16 @@ void Enemy_Turn(){
 
 }
 
+void set_player_stats(Player P1,std::string NAME, int HEALTH, int ATTACK, int DEFENSE){
+
+    P1.set_HP(HEALTH);
+    P1.set_Def(DEFENSE);
+    P1.set_Atk(ATTACK);
+    P1.set_Name(NAME);
+
+
+
+
+}
+
 
