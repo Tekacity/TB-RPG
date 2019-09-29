@@ -20,6 +20,12 @@ int main(){
     //std::cout << "Press 1 to Start, 2 to Quit \n";
     //start_game();
     std::cout << "test '\n'";
+    Char.set_stats("Hero", 100, 40, 128);
+    Foe.set_stats("Monster", 50, 40, 128);
+
+    Char.attack(&Foe);
+    Foe.attack(&Char);
+
 
 
 
@@ -55,7 +61,7 @@ int start_game(){
 void Battle_Start(){
 
     TurnCount = 1;
-    choice = NULL;
+    choice = 0;
 
 }
 void Initiate_PTurn(){
