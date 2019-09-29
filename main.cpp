@@ -71,32 +71,17 @@ void Initiate_PTurn(){
     else{
 
         std::cout << "Defending... \n";
-
-        
+   
     }
 
 }
 
 void Enemy_Turn(){
-
-    
+  
     E_Target->attack(P_Target);
 
-
-
-
 }
 
-void set_player_stats(Player P1,std::string NAME, int HEALTH, int ATTACK, int DEFENSE){
 
-    P1.set_HP(HEALTH);
-    P1.set_Def(DEFENSE);
-    P1.set_Atk(ATTACK);
-    P1.set_Name(NAME);
-
-
-
-
-}
 
 

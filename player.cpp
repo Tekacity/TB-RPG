@@ -34,6 +34,16 @@ Health = HP;
 }
 
 
+void Player::set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE){
+
+    this->set_HP(HEALTH);
+    this->set_Def(DEFENSE);
+    this->set_Atk(ATTACK);
+    this->set_Name(NAME);
+
+}
+
+
 void Player::take_dmg(Enemy *E_Target){
 
   // Enemy *E_Target;
