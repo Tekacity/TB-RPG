@@ -13,12 +13,5 @@ Entity::~Entity(){
     delete Target;
 
 }
-void Entity::attack(Entity *Target){
 
-    std::cout << this->Name << "Attacked \n";
-    Target->take_dmg();
-
-    //calls take damage function of other class
-
-}
 

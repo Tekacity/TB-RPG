@@ -10,7 +10,7 @@ class Entity{
     Entity();   
     ~Entity();
     Entity *Target;
-    void attack(Entity *Target);
+    virtual void attack();
     virtual void take_dmg();
     std::string Name;
     

@@ -53,4 +53,11 @@ void Enemy::take_dmg(Player *P_Target){
 }
 
 
+void Enemy::attack(Player *P_Target){
 
+    std::cout << this->Name << "Attacked \n";
+    P_Target->take_dmg(this);
+
+    //calls take damage function of other class
+
+}
