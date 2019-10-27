@@ -12,7 +12,7 @@ class Player: virtual protected Entity{
     class Enemy *E_Target;
     void set_stats(std::string NAME, double HEALTH, double ATTACK, double DEFENSE);
     void take_dmg(Enemy *E_Target);
-    void attack(Enemy *E_Target);
+    void attack(Entity);
     std::string Name;
     void set_Name(std::string Name);
     void set_Def(double Defense);

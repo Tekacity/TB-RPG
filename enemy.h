@@ -16,7 +16,7 @@ class Enemy: virtual protected Entity{
     void set_HP(int Health);
     void set_Atk(int Attack);
     void take_dmg(Player *P_Target);
-    void attack(Player *P_Target);
+    void attack(Entity);
     //friend int Enemy::Atk;
 
     private:

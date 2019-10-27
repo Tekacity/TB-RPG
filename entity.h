@@ -1,5 +1,7 @@
 #ifndef Entity_H
 #define Entity_H
+#include <string>
+#include <iostream>
 
 class Entity{
 
