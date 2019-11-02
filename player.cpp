@@ -46,12 +46,12 @@ void Player::set_stats(std::string NAME, double HEALTH, double ATTACK, double DE
 
 void Player::take_dmg(Enemy *E_Target){
 
-  // Enemy *E_Target;
-    this->HP -= E_Target->Attack * (this->Def/256); 
-    //Attack Formula: attack*(100/(100+defense))
     double Damage;
     Damage = E_Target->Attack * this->Def/256;
-     std::cout << this->name << " took " << Attack << " damage!!! \n";
+    this->HP -= Damage; 
+    //Attack Formula: attack*(100/(100+defense))
+    
+     std::cout << this->Name << " took " << Damage << " damage!!! \n";
 
 
 

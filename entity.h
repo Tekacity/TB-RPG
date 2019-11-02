@@ -2,14 +2,12 @@
 #define Entity_H
 #include <string>
 #include <iostream>
+//using namespace std;
 
 class Entity{
 
 
     public:
-    Entity();   
-    ~Entity();
-    Entity *Target;
     virtual void attack();
     virtual void take_dmg();
     std::string Name;

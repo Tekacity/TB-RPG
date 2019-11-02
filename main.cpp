@@ -20,8 +20,8 @@ int main(){
     //std::cout << "Press 1 to Start, 2 to Quit \n";
     //start_game();
     std::cout << "test '\n'";
-    Char.set_stats("Hero", 100, 40, 128);
-    Foe.set_stats("Monster", 50, 40, 128);
+    Char.set_stats("Hero", 100, 79, 128);
+    Foe.set_stats("Monster", 50, 79, 128);
 
     Char.attack(&Foe);
     Foe.attack(&Char);

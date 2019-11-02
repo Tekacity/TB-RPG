@@ -3,15 +3,13 @@
 #include "player.h"
 #include "enemy.h"
 
-Entity::Entity(){
-    Entity* Target;
-
-}
-
-Entity::~Entity(){
-
-    delete Target;
-
-}
+void Entity::attack(){
 
 
+
+};
+void Entity::take_dmg(){
+
+
+
+};
