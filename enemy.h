@@ -10,6 +10,8 @@ class Enemy: virtual protected Entity{
     void set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE);
     class Player *P_Target;
     int Attack;
+    int Defense;
+    int Health;
     std::string Name;
     void set_Name(std::string Name);
     void set_Def(int Defense);

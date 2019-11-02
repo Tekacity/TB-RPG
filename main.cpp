@@ -14,20 +14,15 @@ int main(){
 
     Player Char;
     Enemy  Foe;
-    //E_Target = &Foe;
-    //P_Target = &Char;
+    E_Target = &Foe;
+    P_Target = &Char;
     //std::cout << "1.Start  \n 2.Quit" << std::endl;
     //std::cout << "Press 1 to Start, 2 to Quit \n";
     //start_game();
-    std::cout << "test \n";
-    //Char.set_stats("Hero", 200, 100, 0);
-    //Foe.set_stats("Monster", 200, 100, 0);
-    Char.set_Name("Warrior");
-    Char.set_Atk(100);
-    Char.set_HP(500);
-    Foe.set_Name("Warrior");
-    Foe.set_Atk(100);
-    Foe.set_HP(500);
+    //std::cout << "test \n";
+    Char.set_stats("Hero", 200, 100, 0);
+    Foe.set_stats("Monster", 200, 100, 0);
+
     Char.attack(&Foe);
     Foe.attack(&Char);
 

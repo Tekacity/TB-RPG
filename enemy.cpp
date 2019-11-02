@@ -6,13 +6,15 @@
 void Enemy::set_Name(std::string Name){
 
 
-    name = Name;
+    this->name = Name;
+    this->Name = Name;
 
 }
 
 void Enemy::set_Def(int Defense){
 
-    Def = Defense;
+    this->Def = Defense;
+    this->Defense = Defense;
 
 
 }
@@ -20,14 +22,16 @@ void Enemy::set_Def(int Defense){
 
 void Enemy::set_Atk(int Attack){
 
-    Atk = Attack ;
+    this->Atk = Attack;
+    this->Attack = Attack;
 
 
 }
 
 void Enemy::set_HP(int Health){
 
-    HP = Health;
+    this->HP = Health;
+    this->Health = Health;
 
 
 }
@@ -48,7 +52,7 @@ void Enemy::take_dmg(Player *P_Target){
     Damage = P_Target->Attack;
     this->HP -=  Damage;
     
-    std::cout << this->Name << " took " << Damage << " damage!!! \n";
+    std::cout << this->name << " took " << Damage << " damage!!! \n";
 
 
 }
@@ -56,7 +60,7 @@ void Enemy::take_dmg(Player *P_Target){
 
 void Enemy::attack(Player *P_Target){
 
-    std::cout << this->Name << "Attacked \n";
+    std::cout << this->name << " Attacked \n";
     P_Target->take_dmg(this);
 
     //calls take damage function of other class

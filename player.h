@@ -14,11 +14,13 @@ class Player: virtual protected Entity{
     void take_dmg(Enemy *E_Target);
     void attack(Enemy *E_Target);
     std::string Name;
+    int Attack;
+    int Defense;
+    int Health;
     void set_Name(std::string Name);
     void set_Def(int Defense);
     void set_HP(int Health);
     void set_Atk(int Attack);
-    int Attack;
     private:
 
      std::string name;
