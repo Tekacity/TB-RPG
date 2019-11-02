@@ -7,13 +7,13 @@
 void Player::set_Name(std::string Name){
 
 
-    Name = name;
+    name = Name;
 
 }
 
 void Player::set_Def(int Defense){
 
-    Defense = Def;
+    Def = Defense;
 
 
 }
@@ -21,14 +21,14 @@ void Player::set_Def(int Defense){
 
 void Player::set_Atk(int Attack){
 
-    Attack = Atk;
+    Atk = Attack;
 
 
 }
 
 void Player::set_HP(int Health){
 
-Health = HP;
+    HP = Health;
 
 
 }

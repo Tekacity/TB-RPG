@@ -6,13 +6,13 @@
 void Enemy::set_Name(std::string Name){
 
 
-    Name = name;
+    name = Name;
 
 }
 
 void Enemy::set_Def(int Defense){
 
-    Defense = Def;
+    Def = Defense;
 
 
 }
@@ -20,14 +20,14 @@ void Enemy::set_Def(int Defense){
 
 void Enemy::set_Atk(int Attack){
 
-    Attack = Atk;
+    Atk = Attack ;
 
 
 }
 
 void Enemy::set_HP(int Health){
 
-Health = HP;
+    HP = Health;
 
 
 }
