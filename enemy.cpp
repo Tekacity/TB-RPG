@@ -44,8 +44,8 @@ void Enemy::set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE){
 void Enemy::take_dmg(Player *P_Target){
 
    // Enemy *P_TargetPlayer *P_Target;
-    double Damage;
-    Damage = P_Target->Attack * (100/(100+this->Def));
+    int Damage;
+    Damage = P_Target->Attack;
     this->HP -=  Damage;
     
     std::cout << this->Name << " took " << Damage << " damage!!! \n";
