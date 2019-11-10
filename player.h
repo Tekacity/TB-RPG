@@ -21,6 +21,7 @@ class Player: virtual protected Entity{
     void set_Def(int Defense);
     void set_HP(int Health);
     void set_Atk(int Attack);
+    friend void EnemyTurn();
     private:
 
      std::string name;

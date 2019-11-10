@@ -19,7 +19,7 @@ class Enemy: virtual protected Entity{
     void set_Atk(int Attack);
     void take_dmg(Player *P_Target);
     void attack(Player *P_Target);
-    //friend int Enemy::Atk;
+    friend void PlayerTurn();
 
     private:
 
