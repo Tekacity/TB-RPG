@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tekacity/Projects/TB-RPG/enemy.cpp
+enemy.h
+/home/tekacity/Projects/TB-RPG/enemy.h
+player.h
+/home/tekacity/Projects/TB-RPG/player.h
+iostream
+-
+
+/home/tekacity/Projects/TB-RPG/enemy.h
+player.h
+/home/tekacity/Projects/TB-RPG/player.h
+entity.h
+/home/tekacity/Projects/TB-RPG/entity.h
+string
+-
+
+/home/tekacity/Projects/TB-RPG/entity.h
+string
+-
+iostream
+-
+
+/home/tekacity/Projects/TB-RPG/player.cpp
+player.h
+/home/tekacity/Projects/TB-RPG/player.h
+enemy.h
+/home/tekacity/Projects/TB-RPG/enemy.h
+iostream
+-
+
+/home/tekacity/Projects/TB-RPG/player.h
+enemy.h
+/home/tekacity/Projects/TB-RPG/enemy.h
+entity.h
+/home/tekacity/Projects/TB-RPG/entity.h
+string
+-
+

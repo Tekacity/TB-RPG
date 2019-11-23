@@ -10,24 +10,24 @@ class Player: virtual protected Entity{
     public:
     
     class Enemy *E_Target;
-    void set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE);
+    void set_stats(std::string NAME, double HEALTH, double ATTACK, double DEFENSE);
     void take_dmg(Enemy *E_Target);
     void attack(Enemy *E_Target);
     std::string Name;
-    int Attack;
-    int Defense;
-    int Health;
+    double Attack;
+    double Defense;
+    double Health;
     void set_Name(std::string Name);
-    void set_Def(int Defense);
-    void set_HP(int Health);
-    void set_Atk(int Attack);
+    void set_Def(double Defense);
+    void set_HP(double Health);
+    void set_Atk(double Attack);
     friend void EnemyTurn();
     private:
 
      std::string name;
-     int Def;
-     int HP;
-     int Atk;
+     double Def;
+     double HP;
+     double Atk;
 
 };
 

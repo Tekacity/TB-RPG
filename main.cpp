@@ -19,8 +19,8 @@ int main(){
     Enemy  Foe;
     E_Target = &Foe;
     P_Target = &Char;
-    Char.set_stats("Hero", 300, 100, 0);
-    Foe.set_stats("Monster", 300, 100, 0);
+    Char.set_stats("Hero", 100, 100, 70);
+    Foe.set_stats("Monster", 67, 100, 70);
     start_game();
 
 

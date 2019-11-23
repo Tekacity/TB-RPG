@@ -7,16 +7,16 @@
 class Enemy: virtual protected Entity{
 
     public:
-    void set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE);
+    void set_stats(std::string NAME, double HEALTH, double ATTACK, double DEFENSE);
     class Player *P_Target;
-    int Attack;
-    int Defense;
-    int Health;
+    double Attack;
+    double Defense;
+    double Health;
     std::string Name;
     void set_Name(std::string Name);
-    void set_Def(int Defense);
-    void set_HP(int Health);
-    void set_Atk(int Attack);
+    void set_Def(double Defense);
+    void set_HP(double Health);
+    void set_Atk(double Attack);
     void take_dmg(Player *P_Target);
     void attack(Player *P_Target);
     friend void PlayerTurn();
@@ -24,9 +24,9 @@ class Enemy: virtual protected Entity{
     private:
 
     std::string name;
-    int HP;
-    int Atk;
-    int Def;
+    double HP;
+    double Atk;
+    double Def;
 };
 
 

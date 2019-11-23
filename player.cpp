@@ -12,7 +12,7 @@ void Player::set_Name(std::string Name){
 
 }
 
-void Player::set_Def(int Defense){
+void Player::set_Def(double Defense){
 
     this->Def = Defense;
     this->Defense =Defense;
@@ -21,7 +21,7 @@ void Player::set_Def(int Defense){
 }
 
 
-void Player::set_Atk(int Attack){
+void Player::set_Atk(double Attack){
 
     this->Atk = Attack;
     this->Attack = Attack;
@@ -29,7 +29,7 @@ void Player::set_Atk(int Attack){
 
 }
 
-void Player::set_HP(int Health){
+void Player::set_HP(double Health){
 
     this->HP = Health;
     this->Health = Health;
@@ -38,7 +38,7 @@ void Player::set_HP(int Health){
 }
 
 
-void Player::set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE){
+void Player::set_stats(std::string NAME, double HEALTH, double ATTACK, double DEFENSE){
 
     this->set_HP(HEALTH);
     this->set_Def(DEFENSE);
@@ -51,7 +51,7 @@ void Player::set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE){
 void Player::take_dmg(Enemy *E_Target){
 
     int Damage;
-    Damage = E_Target->Attack;
+    Damage = (E_Target->Attack)*(this->Def/256);
     this->HP -= Damage;     
     std::cout << this->name << " took " << Damage << " damage!!! \n";
 

@@ -11,7 +11,7 @@ void Enemy::set_Name(std::string Name){
 
 }
 
-void Enemy::set_Def(int Defense){
+void Enemy::set_Def(double Defense){
 
     this->Def = Defense;
     this->Defense = Defense;
@@ -20,7 +20,7 @@ void Enemy::set_Def(int Defense){
 }
 
 
-void Enemy::set_Atk(int Attack){
+void Enemy::set_Atk(double Attack){
 
     this->Atk = Attack;
     this->Attack = Attack;
@@ -28,7 +28,7 @@ void Enemy::set_Atk(int Attack){
 
 }
 
-void Enemy::set_HP(int Health){
+void Enemy::set_HP(double Health){
 
     this->HP = Health;
     this->Health = Health;
@@ -36,7 +36,7 @@ void Enemy::set_HP(int Health){
 
 }
 
-void Enemy::set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE){
+void Enemy::set_stats(std::string NAME, double HEALTH, double ATTACK, double DEFENSE){
 
     this->set_HP(HEALTH);
     this->set_Def(DEFENSE);
@@ -47,9 +47,9 @@ void Enemy::set_stats(std::string NAME, int HEALTH, int ATTACK, int DEFENSE){
 
 void Enemy::take_dmg(Player *P_Target){
 
-   // Enemy *P_TargetPlayer *P_Target;
+   // Attack Formula: attack*(100/(100+defense));
     int Damage;
-    Damage = P_Target->Attack;
+    Damage = (P_Target->Attack)*(this->Def/256);
     this->HP -=  Damage;
     
     std::cout << this->name << " took " << Damage << " damage!!! \n";
