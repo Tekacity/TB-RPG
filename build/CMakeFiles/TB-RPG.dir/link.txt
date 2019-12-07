@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/TB-RPG.dir/main.cpp.o CMakeFiles/TB-RPG.dir/enemy.cpp.o CMakeFiles/TB-RPG.dir/player.cpp.o CMakeFiles/TB-RPG.dir/entity.cpp.o  -o TB-RPG 
+/bin/c++     CMakeFiles/TB-RPG.dir/main.cpp.o CMakeFiles/TB-RPG.dir/enemy.cpp.o CMakeFiles/TB-RPG.dir/player.cpp.o CMakeFiles/TB-RPG.dir/entity.cpp.o  -o TB-RPG 

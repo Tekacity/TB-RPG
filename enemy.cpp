@@ -49,7 +49,12 @@ void Enemy::take_dmg(Player *P_Target){
 
    // Attack Formula: attack*(100/(100+defense));
     int Damage;
-    Damage = (P_Target->Attack)*(this->Def/256);
+    double AttackRNG;
+    int RNGindex;
+    Damage = (P_Target->Attack)*(256/this->Def);
+    srand(time(NULL));
+    RNGindex = (rand() % 25) + 85;
+    AttackRNG = RNGindex/100;
     this->HP -=  Damage;
     
     std::cout << this->name << " took " << Damage << " damage!!! \n";

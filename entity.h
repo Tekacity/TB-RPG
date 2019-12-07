@@ -2,6 +2,9 @@
 #define Entity_H
 #include <string>
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+
 //using namespace std;
 
 class Entity{

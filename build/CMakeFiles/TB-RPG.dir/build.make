@@ -60,54 +60,54 @@ include CMakeFiles/TB-RPG.dir/flags.make
 CMakeFiles/TB-RPG.dir/main.cpp.o: CMakeFiles/TB-RPG.dir/flags.make
 CMakeFiles/TB-RPG.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tekacity/Projects/TB-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TB-RPG.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TB-RPG.dir/main.cpp.o -c /home/tekacity/Projects/TB-RPG/main.cpp
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TB-RPG.dir/main.cpp.o -c /home/tekacity/Projects/TB-RPG/main.cpp
 
 CMakeFiles/TB-RPG.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TB-RPG.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tekacity/Projects/TB-RPG/main.cpp > CMakeFiles/TB-RPG.dir/main.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tekacity/Projects/TB-RPG/main.cpp > CMakeFiles/TB-RPG.dir/main.cpp.i
 
 CMakeFiles/TB-RPG.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TB-RPG.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tekacity/Projects/TB-RPG/main.cpp -o CMakeFiles/TB-RPG.dir/main.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tekacity/Projects/TB-RPG/main.cpp -o CMakeFiles/TB-RPG.dir/main.cpp.s
 
 CMakeFiles/TB-RPG.dir/enemy.cpp.o: CMakeFiles/TB-RPG.dir/flags.make
 CMakeFiles/TB-RPG.dir/enemy.cpp.o: ../enemy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tekacity/Projects/TB-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TB-RPG.dir/enemy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TB-RPG.dir/enemy.cpp.o -c /home/tekacity/Projects/TB-RPG/enemy.cpp
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TB-RPG.dir/enemy.cpp.o -c /home/tekacity/Projects/TB-RPG/enemy.cpp
 
 CMakeFiles/TB-RPG.dir/enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TB-RPG.dir/enemy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tekacity/Projects/TB-RPG/enemy.cpp > CMakeFiles/TB-RPG.dir/enemy.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tekacity/Projects/TB-RPG/enemy.cpp > CMakeFiles/TB-RPG.dir/enemy.cpp.i
 
 CMakeFiles/TB-RPG.dir/enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TB-RPG.dir/enemy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tekacity/Projects/TB-RPG/enemy.cpp -o CMakeFiles/TB-RPG.dir/enemy.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tekacity/Projects/TB-RPG/enemy.cpp -o CMakeFiles/TB-RPG.dir/enemy.cpp.s
 
 CMakeFiles/TB-RPG.dir/player.cpp.o: CMakeFiles/TB-RPG.dir/flags.make
 CMakeFiles/TB-RPG.dir/player.cpp.o: ../player.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tekacity/Projects/TB-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TB-RPG.dir/player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TB-RPG.dir/player.cpp.o -c /home/tekacity/Projects/TB-RPG/player.cpp
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TB-RPG.dir/player.cpp.o -c /home/tekacity/Projects/TB-RPG/player.cpp
 
 CMakeFiles/TB-RPG.dir/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TB-RPG.dir/player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tekacity/Projects/TB-RPG/player.cpp > CMakeFiles/TB-RPG.dir/player.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tekacity/Projects/TB-RPG/player.cpp > CMakeFiles/TB-RPG.dir/player.cpp.i
 
 CMakeFiles/TB-RPG.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TB-RPG.dir/player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tekacity/Projects/TB-RPG/player.cpp -o CMakeFiles/TB-RPG.dir/player.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tekacity/Projects/TB-RPG/player.cpp -o CMakeFiles/TB-RPG.dir/player.cpp.s
 
 CMakeFiles/TB-RPG.dir/entity.cpp.o: CMakeFiles/TB-RPG.dir/flags.make
 CMakeFiles/TB-RPG.dir/entity.cpp.o: ../entity.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tekacity/Projects/TB-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TB-RPG.dir/entity.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TB-RPG.dir/entity.cpp.o -c /home/tekacity/Projects/TB-RPG/entity.cpp
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TB-RPG.dir/entity.cpp.o -c /home/tekacity/Projects/TB-RPG/entity.cpp
 
 CMakeFiles/TB-RPG.dir/entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TB-RPG.dir/entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tekacity/Projects/TB-RPG/entity.cpp > CMakeFiles/TB-RPG.dir/entity.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tekacity/Projects/TB-RPG/entity.cpp > CMakeFiles/TB-RPG.dir/entity.cpp.i
 
 CMakeFiles/TB-RPG.dir/entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TB-RPG.dir/entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tekacity/Projects/TB-RPG/entity.cpp -o CMakeFiles/TB-RPG.dir/entity.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tekacity/Projects/TB-RPG/entity.cpp -o CMakeFiles/TB-RPG.dir/entity.cpp.s
 
 # Object files for target TB-RPG
 TB__RPG_OBJECTS = \
