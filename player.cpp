@@ -53,6 +53,7 @@ void Player::take_dmg(Enemy *E_Target){
     int Damage;
     double AttackRNG;
     int RNGindex;
+    
     Damage = (E_Target->Attack)*(256/this->Def);
     srand(time(NULL));
     RNGindex = (rand() % 25) + 85;

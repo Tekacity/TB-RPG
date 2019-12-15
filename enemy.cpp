@@ -45,12 +45,12 @@ void Enemy::set_stats(std::string NAME, double HEALTH, double ATTACK, double DEF
 
 }
 
-void Enemy::take_dmg(Player *P_Target){
+void Enemy::take_dmg (Player *P_Target)  {
 
-   // Attack Formula: attack*(100/(100+defense));
     int Damage;
     double AttackRNG;
     int RNGindex;
+
     Damage = (P_Target->Attack)*(256/this->Def);
     srand(time(NULL));
     RNGindex = (rand() % 25) + 85;
