@@ -9,19 +9,20 @@ class Player: virtual protected Entity{
 
     public:
     
+    double Attack, Defense, Health;
+    std::string Name;
     class Enemy *E_Target;
+
     void set_stats(std::string NAME, double HEALTH, double ATTACK, double DEFENSE);
     void take_dmg(Enemy *E_Target);
-    void attack(Enemy *E_Target);
-    std::string Name;
-    double Attack;
-    double Defense;
-    double Health;
+    void attack(Enemy *E_Target); 
     void set_Name(std::string Name);
     void set_Def(double Defense);
     void set_HP(double Health);
     void set_Atk(double Attack);
+
     friend void EnemyTurn();
+
     private:
 
      std::string name;

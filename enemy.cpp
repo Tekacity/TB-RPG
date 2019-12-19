@@ -3,7 +3,7 @@
 #include <iostream>
 
 
-void Enemy::set_Name(std::string Name){
+void Enemy::set_Name (std::string Name) {
 
 
     this->name = Name;
@@ -11,7 +11,7 @@ void Enemy::set_Name(std::string Name){
 
 }
 
-void Enemy::set_Def(double Defense){
+void Enemy::set_Def (double Defense) {
 
     this->Def = Defense;
     this->Defense = Defense;
@@ -20,7 +20,7 @@ void Enemy::set_Def(double Defense){
 }
 
 
-void Enemy::set_Atk(double Attack){
+void Enemy::set_Atk (double Attack) {
 
     this->Atk = Attack;
     this->Attack = Attack;
@@ -28,7 +28,7 @@ void Enemy::set_Atk(double Attack){
 
 }
 
-void Enemy::set_HP(double Health){
+void Enemy::set_HP (double Health) {
 
     this->HP = Health;
     this->Health = Health;
@@ -36,7 +36,7 @@ void Enemy::set_HP(double Health){
 
 }
 
-void Enemy::set_stats(std::string NAME, double HEALTH, double ATTACK, double DEFENSE){
+void Enemy::set_stats (std::string NAME, double HEALTH, double ATTACK, double DEFENSE) {
 
     this->set_HP(HEALTH);
     this->set_Def(DEFENSE);
@@ -45,13 +45,13 @@ void Enemy::set_stats(std::string NAME, double HEALTH, double ATTACK, double DEF
 
 }
 
-void Enemy::take_dmg(Player *P_Target){
+void Enemy::take_dmg (Player *P_Target) {
 
-   // Attack Formula: attack*(100/(100+defense));
     int Damage;
     double AttackRNG;
     int RNGindex;
-    Damage = (P_Target->Attack)*(256/this->Def);
+
+    Damage = (P_Target->Attack) * (256/this->Def);
     srand(time(NULL));
     RNGindex = (rand() % 25) + 85;
     AttackRNG = RNGindex/100;
@@ -63,7 +63,7 @@ void Enemy::take_dmg(Player *P_Target){
 }
 
 
-void Enemy::attack(Player *P_Target){
+void Enemy::attack (Player *P_Target) {
 
     std::cout << this->name << " Attacked \n";
     P_Target->take_dmg(this);
@@ -71,3 +71,4 @@ void Enemy::attack(Player *P_Target){
     //calls take damage function of other class
 
 }
+ 

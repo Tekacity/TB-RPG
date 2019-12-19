@@ -3,12 +3,12 @@
 #include "player.h"
 #include "enemy.h"
 
-void Entity::attack(){
+void Entity::attack() {
 
 
 
 };
-void Entity::take_dmg(){
+void Entity::take_dmg() {
 
 
 

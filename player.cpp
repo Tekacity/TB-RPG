@@ -4,7 +4,7 @@
 
 
 
-void Player::set_Name(std::string Name){
+void Player::set_Name (std::string Name){
 
 
     this->name = Name;
@@ -12,7 +12,7 @@ void Player::set_Name(std::string Name){
 
 }
 
-void Player::set_Def(double Defense){
+void Player::set_Def (double Defense){
 
     this->Def = Defense;
     this->Defense =Defense;
@@ -21,7 +21,7 @@ void Player::set_Def(double Defense){
 }
 
 
-void Player::set_Atk(double Attack){
+void Player::set_Atk (double Attack){
 
     this->Atk = Attack;
     this->Attack = Attack;
@@ -29,7 +29,7 @@ void Player::set_Atk(double Attack){
 
 }
 
-void Player::set_HP(double Health){
+void Player::set_HP (double Health) {
 
     this->HP = Health;
     this->Health = Health;
@@ -38,7 +38,7 @@ void Player::set_HP(double Health){
 }
 
 
-void Player::set_stats(std::string NAME, double HEALTH, double ATTACK, double DEFENSE){
+void Player::set_stats (std::string NAME, double HEALTH, double ATTACK, double DEFENSE) {
 
     this->set_HP(HEALTH);
     this->set_Def(DEFENSE);
@@ -48,11 +48,12 @@ void Player::set_stats(std::string NAME, double HEALTH, double ATTACK, double DE
 }
 
 
-void Player::take_dmg(Enemy *E_Target){
+void Player::take_dmg (Enemy *E_Target) {
 
     int Damage;
     double AttackRNG;
     int RNGindex;
+    
     Damage = (E_Target->Attack)*(256/this->Def);
     srand(time(NULL));
     RNGindex = (rand() % 25) + 85;
@@ -64,7 +65,7 @@ void Player::take_dmg(Enemy *E_Target){
 
 };
 
-void Player::attack(Enemy *E_Target){
+void Player::attack (Enemy *E_Target) {
 
     std::cout << this->name << " Attacked \n";
     E_Target->take_dmg(this);
