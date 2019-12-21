@@ -73,3 +73,24 @@ void Player::attack (Enemy *E_Target) {
     //calls take damage function of other class
 
 }
+
+void Player::initiate_defense() {
+
+    this->TempDef = this->Def;
+    this->NewDef = this->Def * 2;
+    this->Def = this->NewDef; 
+}
+
+void Player::end_defense() {
+
+    this->Def = this->TempDef;
+}
+
+void Player::crosscounter() {
+
+
+    this->TempAtk = this->Atk;
+    this->counterAtk = this->Atk *2;
+    this->attack(E_Target);
+    this->Atk = this->TempAtk;
+}

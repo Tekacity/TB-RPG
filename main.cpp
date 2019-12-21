@@ -74,9 +74,12 @@ void PlayerTurn()  {
     EnemyTurn();
     
     } else if (choice == 2)  {
+
+        P_Target->initiate_defense();
         std::cout << "Defending...";
         TurnCount++;
         EnemyTurn();
+        P_Target->end_defense();
 
     } else if (choice == 3)  {
        std::cout << "Turn Skipped \n" ;
